@@ -1,0 +1,73 @@
+.guide_wrap{
+    display: flex;
+    margin: 36px 50px 42px 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eef2f5;
+    padding: 73px;
+    border-radius: 10px;
+}
+
+.guide_text{
+    h3{
+        text-align: center;
+        font-size: 38.43px;
+        margin-bottom: 40px;
+    }
+    .guide_para{
+        font-size: 14px;
+    }
+}
+
+.guide_btn{
+    margin-top: 45px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #434151;
+    border-radius: 4px;
+    width: 85%;
+    padding: 5px;
+    color: white;
+    position: relative;
+    &::after{
+        position: absolute;
+        content: "";
+        top: 50%;
+        transform: translateY(-50%);
+        right: 5px;
+        border-width: 7px 4px;
+        border-style: solid;
+        border-color: transparent transparent transparent white;
+    }
+}
+
+.line_up{
+    margin: 36px 100px 42px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #dee5ea;
+    padding: 22px 24px 22px 56px;
+    border-radius: 8px;
+    .sugo{
+        text-align: center;
+        span{
+            color: white;
+            font-size: 44.57px;
+            line-height: 44.57px;
+        }
+        p{
+            font-size: 17.51px;
+        }
+    }
+    span{
+        font-size: 25.02px;
+        color: #434151;
+        font-weight: lighter;
+        padding-right: 50px;
+    }
+    .all_line{
+        display: flex;
+        align-items: center;
+    }
+}

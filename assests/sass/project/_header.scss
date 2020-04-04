@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 28px;
+    div{
+        display: flex;
+        flex: 1;
+    }
+}
+
+.header_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header_nav{
+    a{
+        display: flex;
+        align-items: center;
+        padding: 3px;
+    }
+}
+
+._shop{
+    a{
+        padding: 7px;
+    }
+}
+
+.main_key_text{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 46px;
+    margin-bottom: 44px;
+}
+
+.sp-main_key{
+    img{
+        width: 100%;
+    }
+}
+
+.header_menu{
+    display: none;
+    font-size: 20px;
+}
+
+.menu_icon{
+    display: block;
+    float: right;
+    margin-right: 20px;
+}

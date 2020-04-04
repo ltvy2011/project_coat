@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 54px;
+    margin-bottom: 16px;
+}
+.navbar_list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    .navbar_item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+        border-left: 1px solid black;
+    }
+}
+
+.navbar_item_link{
+    text-align: center;
+    font-size: 1.6rem;
+    color: black;
+}
