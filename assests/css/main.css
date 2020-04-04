@@ -176,14 +176,14 @@ header div {
 }
 
 button.slick-prev {
-  background: url("../../img/left-arrow.png") no-repeat center top;
+  background: url("../..//assests/img/left-arrow.png") no-repeat center top;
   background-size: contain;
   height: 76px;
   width: 30px;
 }
 
 button.slick-next {
-  background: url("../../img/right_arrow.png") no-repeat center top;
+  background: url("../..//assests/img/right-arrow.png") no-repeat center top;
   background-size: contain;
   height: 76px;
   width: 30px;
